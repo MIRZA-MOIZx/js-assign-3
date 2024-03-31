@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5.3.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+  <link rel="stylesheet" href="styles.css">
+    <title> JS ASSIGN - 3 </title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+
+        <div class="d-flex flex-column ">
+
+            <!-- NavBar -->
+        
+            <nav class="navbar navbar-expand-lg" style="background-color: #1d3557;">
+                <div class="container text-white">
+                    <a class="navbar-brand text-white" href="#">Assignments</a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2  mb-lg-0">
+                            <li class="nav-item">
+                                <a class="text-white nav-link active" aria-current="page" href="#">Chapter 15-20</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+    </header>
+        
+    </header>
+    <div class="container">
+    <main class="flex-grow-1">
+    <!-- INPUT AREA   -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col mt-5">
+                <h4 class="text-center">Chapter # 15 - 20 | Arrays: It's Methods & for loops</h4>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12 col-md-6">
+                <h3 class="text-center">Input</h3>
+                <div class="border rounded-3 h-75 p-3 d-flex align-items-center">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-transparent" placeholder="Type your text here">
+                        <button class="btn btn-outline-secondary">Clear</button>
+                    </div>
+                </div>
+            </div>
+                <!-- Original strings Area -->
+
+                <div class="col-12 mt-4 mt-md-0 col-md-6">
+                    <h3 class="text-center">Original String</h3>
+                    <div class="border rounded-3 h-75 py-3 px-5  d-flex align-items-center text-white" style="background-color: #1d3557;" id="original-string">
+                        <div class="text-center">
+                            1&rpar; Faisalabad &nbsp;
+                            2&rpar; Lahore &nbsp;
+                            3&rpar; Karachi &nbsp;
+                            4&rpar; Islamabad &nbsp;
+                            5&rpar; Burewala &nbsp;
+                            6&rpar; Shekhupura &nbsp;
+                            7&rpar; Kashmir
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+<!-- 2nd ROW -->
+<div class="row mt-5">
+    <div class="col-12 col-md-6 text-center">
+        <h3>Buttons</h3>
+        <div class="border rounded-3 p-4" id="buttons">
+            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="simpleAlert()">Simple Alert</button>
+            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="printName()">print my name</button>
+            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="printAllCities()">print all cities</button>
+            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="addCity()">add your city in list</button>
+            <button class="btn btn-lg btn-danger  text-capitalize" onclick="generateTable()">generate table</button>
+        </div>
+    </div>
+
+                <div class="col-12 col-md-6 mt-3 mt-md-0 text-center">  
+
+                    <!-- Output Area -->
+                 <h3>   Output / Result</h3>
+                 <div class="border rounded-3 p-4 " id="output">
+
+                 </div>
+
+                 <!-- button  -->
+
+                    <button class="btn btn-outline-secondary p-2 text-center mt-3 mb-5 align-items-center" onclick="clearOutput()" >Clear Output</button>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    </main>
+    <footer class=" py-3" style="background-color: #1d3557;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                   <p class="mb-0 text-center text-white">&copy; 2024 Assignment By <span style="font-weight: bold;"> M.Moiz</span>&reg;</p> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap - JS     -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS - COSTOM -->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
